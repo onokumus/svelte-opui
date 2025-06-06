@@ -3,7 +3,7 @@ name: Build and Deploy SvelteKit Site
 on:
   push:
     branches:
-      - master # veya master, ana branch'inizin adı neyse
+      - main # veya master, ana branch'inizin adı neyse
 
 jobs:
   build-and-deploy:
